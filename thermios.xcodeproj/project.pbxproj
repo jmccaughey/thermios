@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		926956F22ED7CE23000BA022 /* Therm.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926956F12ED7CE23000BA022 /* Therm.xcframework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		926956C32ED0F8F6000BA022 /* thermios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thermios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		926956F12ED7CE23000BA022 /* Therm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Therm.xcframework; path = /Users/johnm/git/therm/Therm.xcframework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				926956F22ED7CE23000BA022 /* Therm.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +53,7 @@
 			children = (
 				926956C52ED0F8F6000BA022 /* thermios */,
 				926956C42ED0F8F6000BA022 /* Products */,
+				926956F12ED7CE23000BA022 /* Therm.xcframework */,
 			);
 			sourceTree = "<group>";
 		};
